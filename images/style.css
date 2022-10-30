@@ -37,7 +37,8 @@ h2 {
   margin-left: 30px;
 }
 
-.row-mt {
+.row-mt,
+.fav-rec {
   margin-top: 35px;
 }
 
@@ -68,10 +69,32 @@ a :visited {
 }
 
 .about-me-topper {
-  font-size: 72px;
+  font-size: 82px;
   font-weight: 900;
-  padding: 50px;
+  padding: 70px;
   text-align: center;
+}
+
+.hero img {
+  width: 511px;
+  height: 512px;
+  border-radius: 25%;
+}
+
+.hero p {
+  line-height: 2;
+}
+
+.hero h1 {
+  padding: 25px;
+  text-align: center;
+}
+
+.fac-rec-topper {
+  text-align: center;
+  font-size: 46px;
+  padding: 30px;
+  margin-top: 50px;
 }
 
 @media (max-width: 700px) {
@@ -116,5 +139,32 @@ a :visited {
   footer {
     padding: 20px;
     margin-top: 50px;
+  }
+
+  .show-me-p {
+    text-align: center;
+    line-height: 0.5;
+  }
+
+  .hero img {
+    max-width: 100%;
+    max-height: 360px;
+  }
+
+  .about-me-topper {
+    padding: 20px;
+    background-color: #fbcd18;
+    margin-bottom: 25px;
+    color: #ffffff;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+    font-weight: bolder;
+  }
+
+  .fac-rec-topper {
+    margin: 20px;
+    padding: 10px;
   }
 }
