@@ -148,6 +148,11 @@ a :visited {
   max-width: 900px;
 }
 
+.line-between {
+  padding: 10px;
+  background-color: #fbcd18;
+}
+
 li {
   list-style: none;
   padding: 10px 0;
@@ -162,12 +167,17 @@ ul {
 
 .recipe-hero h2 {
   font-weight: bold;
+  padding: 20px;
 }
 
 .img-rec h1 {
   padding: 40px;
   font-weight: bolder;
   margin-top: 15px;
+}
+
+.col-pad {
+  padding-top: 10px;
 }
 
 @media (max-width: 700px) {
@@ -246,5 +256,10 @@ ul {
 
   .contact-us-topper h1 {
     display: none;
+  }
+
+  .recipe-hero h2 {
+    display: none;
+    padding: 10px;
   }
 }
