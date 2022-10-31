@@ -180,6 +180,30 @@ ul {
   padding-top: 10px;
 }
 
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: blueviolet;
+}
+
+.nav-link {
+  padding: 15px;
+  font-size: 20px;
+}
+
+.navbar-brand {
+  font-size: 22px;
+}
+
+.sour {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.sour a {
+  color: blueviolet;
+}
+
 @media (max-width: 700px) {
   .topper {
     background-image: none;
